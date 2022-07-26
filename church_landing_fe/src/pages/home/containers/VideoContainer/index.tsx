@@ -1,10 +1,19 @@
-import { Grid, Typography } from '@material-ui/core'
 import React from 'react'
 import VideoComponent from '../../components/VideoComponent'
+import { Button, Card, Grid, makeStyles, Theme, Typography } from '@material-ui/core';
+
+const useStyles = makeStyles<Theme>(theme => ({
+    cardContainer: {
+        paddingTop: theme.spacing(15),
+        paddingBottom: theme.spacing(20)
+    }
+}));
 
 const VideoContainer = () => {
+    const classes = useStyles();
+
     return (
-        <Grid container direction="row" justifyContent="center" alignItems="flex-start">
+        <Grid container direction="row" justifyContent="center" alignItems="flex-start" className={classes.cardContainer}>
             <Grid item lg={6} xs={11}>
                 <Grid container spacing={5} direction="row" justifyContent="center" >
                     <Grid item xs={12} lg={6}>
