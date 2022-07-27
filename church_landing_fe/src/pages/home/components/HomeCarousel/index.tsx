@@ -12,19 +12,6 @@ interface Props {
     item: ItemType
 }
 
-// const useStyles = makeStyles((theme: Theme) =>
-//     createStyles({
-//         carouselItem: {
-//             backgroundImage: props =>`url(${props.item.image})`,
-//             backgroundPosition: 'center',
-//             backgroundSize: 'cover',
-//             backgroundRepeat: 'no-repeat',
-//             width: '100vw',
-//             height: '100vh'
-//         }
-//     }),
-// );
-
 const useStyles = makeStyles<Theme, Props>(theme => ({
     carouselItemImage: {
         width: '100vw',

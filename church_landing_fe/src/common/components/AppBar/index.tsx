@@ -33,6 +33,10 @@ const useStyles = makeStyles((theme: Theme) =>
     title: {
       flexGrow: 1,
     },
+    appBar: {
+        backgroundColor: theme.palette.common.white,
+        boxShadow: 'none',
+    }
   }),
 );
 
@@ -43,7 +47,7 @@ export default function SiteAppBar(props: Props) {
         <React.Fragment>
             <CssBaseline />
             <HideOnScroll {...props}>
-                <AppBar>
+                <AppBar className={classes.appBar}>
                     <Toolbar>
                         <Typography variant="h6" className={classes.title}>Scroll to Hide App Bar</Typography>
                         <Button href="/">Home</Button>

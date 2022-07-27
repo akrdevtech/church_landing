@@ -38,13 +38,9 @@ const ChannelAction = () => {
                             <Card className={classes.carouselActions}>
                                 <Grid container direction="row" justifyContent="center">
                                     <Typography variant="h5" align="center"><b>24 Hrs Christian Devotional Online Channel</b></Typography>
-                                    <br />
-                                    <br />
-                                    <br />
+                                    <br /><br /><br />
                                     <Typography variant="subtitle1" align="justify">Motivational & Inspirational Videos which will Inspire and Entertain you on Motivation, Positive Thinking, Career, Relationships, Self Help, Goals etc. Stay Connected with our channel for the latest Malayalam Videos.</Typography>
-                                    <br />
-                                    <br />
-                                    <br />
+                                    <br /><br /><br />
                                     <Button
                                         color="default"
                                         className={classes.subscribeButton}
