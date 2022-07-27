@@ -14,9 +14,9 @@ const VisionsContainer = () => {
 
     return (
         <Grid container direction="row" justifyContent="center" className={classes.aboutComponents}>
-            <Grid item xs={12} lg={8} >
-                <Grid container spacing={3} direction="row" justifyContent="center">
-                    <Grid item xs={11} lg={12}>
+            <Grid item xs={12} lg={12} >
+                <Grid container direction="row" justifyContent="center">
+                    <Grid item xs={12} lg={12}>
                         <Visions />
                     </Grid>
                 </Grid>

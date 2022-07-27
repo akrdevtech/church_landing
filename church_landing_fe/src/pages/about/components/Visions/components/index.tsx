@@ -1,5 +1,6 @@
 import { Typography } from '@material-ui/core'
 import React from 'react'
+import VisionsCarousel from './VisionsCarousel'
 
 const Visions = () => {
     return (
@@ -8,6 +9,7 @@ const Visions = () => {
             <br />
             <Typography variant="h6" align="center">WHY WE ARE CALLED BY GOD??</Typography>
             <br /><br />
+            <VisionsCarousel />
             <Typography variant="caption" align="left">
                 <ul>
                 <li>To reach the true Gospel to the ends of the earth, at any cost.</li>
